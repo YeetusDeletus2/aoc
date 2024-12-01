@@ -1,0 +1,15 @@
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\Day1Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\Day1Console.AssemblyInfoInputs.cache
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\Day1Console.AssemblyInfo.cs
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\Day1Console.csproj.CoreCompileInputs.cache
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\Day1Console.sourcelink.json
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\bin\Debug\net9.0\Day1Console.exe
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\bin\Debug\net9.0\Day1Console.deps.json
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\bin\Debug\net9.0\Day1Console.runtimeconfig.json
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\bin\Debug\net9.0\Day1Console.dll
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\bin\Debug\net9.0\Day1Console.pdb
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\Day1Console.dll
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\refint\Day1Console.dll
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\Day1Console.pdb
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\Day1Console.genruntimeconfig.cache
+C:\Users\irisp\Desktop\aoc\week1-day1\Day1Console\obj\Debug\net9.0\ref\Day1Console.dll
