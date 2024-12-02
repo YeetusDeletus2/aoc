@@ -17,9 +17,9 @@ bool checkForSafe(List<int> list)
     int count = 0;
     int notsafe = 0;
     int increasing = 0; // 0 unused, 1 inc, 2 dec
-    foreach (int i in list)
+
+    for (int i = 0; i < list.Count(); i++)
     {
-        count++;
         if (increasing == 0)
         {
             increasing = curr > next ? 2 : 1;
@@ -35,7 +35,6 @@ bool checkForSafe(List<int> list)
             }
             else
             {
-                // safe
             }
         }
         else if (curr < next & increasing == 1)
@@ -48,7 +47,6 @@ bool checkForSafe(List<int> list)
             }
             else
             {
-                // safe
             }
         }
         else
@@ -56,12 +54,8 @@ bool checkForSafe(List<int> list)
             notsafe++;
         }
 
-        try
-        {
-            curr = next;
-            next = list[count + 1];
-        }
-        catch (Exception e)
+        // 
+        if (i == list.Count - 2)
         {
             if (notsafe <= 0)
             {
@@ -69,8 +63,77 @@ bool checkForSafe(List<int> list)
             }
             else
             {
-                possibleToleratable.Add(list);
+                return checkAllVarients(list);
             }
+        }
+        else
+        {
+            curr = next;
+            next = list[i + 2];
+        }
+    }
+
+    return false;
+}
+bool checkForSafeSecond(List<int> list)
+{
+    int curr = list[0];
+    int next = list[1];
+    int count = 0;
+    int notsafe = 0;
+    int increasing = 0; // 0 unused, 1 inc, 2 dec
+
+    for (int i = 0; i < list.Count(); i++)
+    {
+        if (increasing == 0)
+        {
+            increasing = curr > next ? 2 : 1;
+        }
+
+        if (curr > next & increasing == 2)
+        {
+            // decreasing
+            if (curr - 3 > next)
+            {
+                // too much, unsafe
+                notsafe++;
+            }
+            else
+            {
+            }
+        }
+        else if (curr < next & increasing == 1)
+        {
+            // increasing
+            if (curr + 3 < next)
+            {
+                // too much, unsafe
+                notsafe++;
+            }
+            else
+            {
+            }
+        }
+        else
+        {
+            notsafe++;
+        }
+
+        if (i == list.Count - 2)
+        {
+            if (notsafe <= 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            curr = next;
+            next = list[i + 2];
         }
     }
 
@@ -81,13 +144,13 @@ foreach (List<int> list in inputList)
 {
     if (checkForSafe(list))
     {
+        Console.WriteLine("Safe list found: " + string.Join(", ", list));
         answer++;
     }
 }
 
-List<List<List<int>>> allVarients = new List<List<List<int>>>();
 
-foreach (List<int> list in possibleToleratable)
+bool checkAllVarients(List<int> list)
 {
     List<List<int>> currVarients = new List<List<int>>();
     for (int i = 0; i < list.Count; i++)
@@ -96,24 +159,22 @@ foreach (List<int> list in possibleToleratable)
         tempList.RemoveAt(i);
         currVarients.Add(tempList);
     }
-    allVarients.Add(currVarients);
-}
 
-foreach (List<List<int>> list in allVarients)
-{
     bool salvagable = false;
-    foreach (List<int> ints in list)
+    foreach (List<int> varients in currVarients)
     {
-        if (checkForSafe(ints))
+        if (!salvagable)
         {
-            salvagable = true;
+            salvagable = checkForSafeSecond(varients);
         }
     }
-
     if (salvagable)
     {
+        Console.WriteLine("List that could be salvaged: " + string.Join(", ", list));
         answer++;
     }
+
+    return false;
 }
 
 Console.WriteLine(answer);
