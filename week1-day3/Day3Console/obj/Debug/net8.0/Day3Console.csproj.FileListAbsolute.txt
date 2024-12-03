@@ -1,0 +1,15 @@
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\bin\Debug\net8.0\Day3Console.exe
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\bin\Debug\net8.0\Day3Console.deps.json
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\bin\Debug\net8.0\Day3Console.runtimeconfig.json
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\bin\Debug\net8.0\Day3Console.dll
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\bin\Debug\net8.0\Day3Console.pdb
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\Day3Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\Day3Console.AssemblyInfoInputs.cache
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\Day3Console.AssemblyInfo.cs
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\Day3Console.csproj.CoreCompileInputs.cache
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\Day3Console.sourcelink.json
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\Day3Console.dll
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\refint\Day3Console.dll
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\Day3Console.pdb
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\Day3Console.genruntimeconfig.cache
+C:\Users\11897\RiderProjects\Huiswerk\aoc\week1-day3\Day3Console\obj\Debug\net8.0\ref\Day3Console.dll
