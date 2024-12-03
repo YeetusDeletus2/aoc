@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0aJZagCQ612/ZT2RBl1IAGTNveLAsR/h2WViD3y7igNDCfnffr6VsPS1C8N0eHCNDkg1YogjRmvlMRyzM06GLw==",
+  "dgSpecHash": "XDZgHTj/5Vs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\11897\\RiderProjects\\Huiswerk\\aoc\\week1-day3\\Day3Console\\Day3Console.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\irisp\\Desktop\\aoc\\week1-day3\\Day3Console\\Day3Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\irisp\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\irisp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\irisp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\irisp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

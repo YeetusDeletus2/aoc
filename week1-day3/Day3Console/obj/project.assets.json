@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\11897\\.nuget\\packages\\": {}
+    "C:\\Users\\irisp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\11897\\RiderProjects\\Huiswerk\\aoc\\week1-day3\\Day3Console\\Day3Console.csproj",
+      "projectUniqueName": "C:\\Users\\irisp\\Desktop\\aoc\\week1-day3\\Day3Console\\Day3Console.csproj",
       "projectName": "Day3Console",
-      "projectPath": "C:\\Users\\11897\\RiderProjects\\Huiswerk\\aoc\\week1-day3\\Day3Console\\Day3Console.csproj",
-      "packagesPath": "C:\\Users\\11897\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\11897\\RiderProjects\\Huiswerk\\aoc\\week1-day3\\Day3Console\\obj\\",
+      "projectPath": "C:\\Users\\irisp\\Desktop\\aoc\\week1-day3\\Day3Console\\Day3Console.csproj",
+      "packagesPath": "C:\\Users\\irisp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\irisp\\Desktop\\aoc\\week1-day3\\Day3Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\11897\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\irisp\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -40,7 +38,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -56,12 +60,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
